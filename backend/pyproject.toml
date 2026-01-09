@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "omnigence-backend"
+version = "0.1.0"
+description = "FastAPI backend for OmnigenceAI"
+authors = ["Keyvan Zhuo <keyvan@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.0"
+python-multipart = "^0.0.9"
+pydantic-settings = "^2.3.0"
+google-cloud-documentai = "^2.30.0"
+openai = "^1.50.0"
+boto3 = "^1.34.0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
